@@ -1,4 +1,4 @@
-This is a quick little exercise for you to show off your ubber awesome html/css chops.
+This is a quick little exercise for you to show off your über awesome html/css chops.
 
 Here's what you need to do:
 
