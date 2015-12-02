@@ -40,6 +40,6 @@ Using CSS, make `index.html` responsive. Style from mobile through desktop views
 - For using BEM methodology
 
 
-## I'm Finished!
+## I'm Finished! Awesome!
 
 - Awesome now you can submit a [pull request](https://help.github.com/articles/using-pull-requests/).
