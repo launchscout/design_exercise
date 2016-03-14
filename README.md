@@ -4,7 +4,11 @@ This is an exercise to show us where your front-end skills are. Feel free to use
 
 ## Getting Started
 
-Clone this repo - New to git? [Checkout this video](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/)
+Clone this repo
+
+New to git? This should help
+[Github Help on cloning a repo](https://help.github.com/articles/cloning-a-repository/),
+[Let's suck at Github together](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/)
 
 
 ## Step 1
