@@ -30,7 +30,7 @@ The header should include a nav with three links:
 
 ## Step 2
 
-In the content section of the site, build out a simple blog post that has a featured image. You're free to design it how you like and we suggest using [Cincy Ipsum](http://www.cincyipsum.com/) for text and [Fill Murray](http://www.fillmurray.com/) for the image. Style this however you would like.
+In the content section of the site, build out a simple blog post that has a featured image. Feel free to pull in some alternative placeholders with something like [Zombie Ipsum](http://www.zombieipsum.com/) or [Cincy Ipsum](http://www.cincyipsum.com/) for text and [Fill Murray](http://www.fillmurray.com/) or [Place Kitten](http://placekitten.com/) for the image. Style this however you would like.
 
 
 ## Step 3
