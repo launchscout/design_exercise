@@ -1,1 +1,206 @@
-/*-- CSS Here --*/
+
+body {
+    /*padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background-color: #F4F4F4;
+}
+
+.navbar-inverse {
+	background-color: rgba(255,255,255,.55);
+	border: none;
+
+}
+
+.navbar .navbar-nav>li>a {
+	color: #565656;
+
+}
+
+
+.navbar-toggle {
+	background-color: #777777;
+	border: none;
+
+}
+
+.navbar-nav {
+	float:right;
+}
+
+.navbar-collapse {
+	border:none;
+}
+
+
+
+.header {
+    height: 400px;
+    background: url(../img/marg-banner.jpg); center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.tagline {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css);
+
+
+input.btn-primary {
+  margin-top: 15px;
+}
+
+h1 {
+	color: #fff;
+	text-align: center;
+	margin-top:80px;
+	font-size:50px;
+		
+}
+
+h1.entry-title a{ 
+	margin-top:0px;	
+	color: #777777;	
+	font-size: 24px;
+	
+
+}
+
+a:hover {
+	text-decoration: none;
+	
+	}
+
+h1.entry-title { 
+	margin-top:0px;
+}
+
+h2 {
+	color: #777777;
+}
+h3 {
+	color: #777777;
+	font-size: 18px;
+	margin: 15px;
+	
+	
+	
+}
+
+h3.entry-tacos {
+	margin-top:-10px;
+	font-size: 18px;
+	color:#777777;
+	margin-bottom: 50px;
+	}
+
+h4 {
+	color:#fff;
+	text-align:center;
+	
+}
+
+h5 {
+	color:#777777;
+}
+
+p.foot {
+	color: #a5a5a5;
+	font-size: 12px; 
+}
+
+a {
+	color:#777777;
+}
+
+a:hover {
+	color: #729a3e;
+}
+
+.img-center {
+    margin: 0 auto;
+
+}
+
+img {
+	width:100%;
+	
+}
+
+footer {
+    background-color: #efefef;
+   	padding: 50px;
+   	
+}
+
+
+.sidebar-box {
+	background-color: #fff;
+	padding:30px 30px;
+	text-align: center;
+	border: 1px solid #eee;
+	margin-top:30px;
+
+
+}
+
+.about-me--image {
+	padding:15px;
+	
+}
+
+.post-title {
+	background-color: #fff;
+	padding:5px;
+	text-align: center;
+	border: 1px solid #eee;
+	margin-top:30px;
+}
+
+.post {
+	background-color: #fff;
+	padding:20px 30px;
+	text-align: center;
+	border: 1px solid #eee;
+	margin-top:30px;
+}
+
+
+
+.post-content {
+	background-color: #fff;
+	
+	
+
+}
+
+.post-content-img {
+	max-width: 75%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	}
+	
+
+.well {
+	background-color: #fff;
+}
+
+.btn-primary{
+	background-color:#729a3e;
+	border:none;
+	
+	}
+	
+.btn-primary:hover{
+	background-color:#729a3e;
+	border:none;
+	
+	}
