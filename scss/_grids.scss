@@ -1,0 +1,197 @@
+/**
+Grids: Size, shape, margins, padding, and responsive stuff
+(All grids mobile first)
+**/
+
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+    position: relative;
+    margin: 0px;
+    min-height: 100%;
+}
+
+.header{
+    padding: $padding;
+    clear: both;
+    height: 90px;
+}
+
+.logo{
+    margin: 0px;
+    float: left;
+}
+
+.nav_big-screen{
+    display: none;
+}
+
+.nav__item{
+    width: 100%;
+    list-style: none;
+    margin: 60px auto;
+    text-align:center;
+}
+
+.toggle{
+    display: block;
+    float: right;
+}
+
+//overlay mobile menu on .toggle click
+.nav_small-screen{
+    float: right;
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 70px;
+    padding: 0px;
+}
+
+.main {
+    max-width: 95%;
+    margin: 40px auto;
+    position: relative;
+}
+
+.content{
+    max-width: 700px;
+    padding: $padding $padding 70px $padding;
+    margin: 20px auto;
+}
+
+.text{
+    margin: 0px;
+}
+
+.image{
+    max-width: 100%;
+}
+
+.title{
+    margin-bottom: 50px;
+    line-height: 1.3em;
+}
+
+.sidebar{
+    max-width: 700px;
+    padding: $padding;
+    margin: 20px auto;
+}
+
+.sidebar__list{
+    padding: 0px;
+    margin: 0px;
+}
+
+.social{
+    margin-right: 10px;
+}
+
+.footer{
+    width: 100%;
+    padding: 20px 0px;
+    margin-top: 30px;
+    height: 60px;
+    clear: both;
+}
+
+.footer__text {
+    margin: 0px auto;
+}
+
+
+
+/*medium screens only*/
+@media (min-width : 768px) and (max-width : 1024px) {
+    .header{
+        height: 120px;
+    }
+    
+    .nav_big-screen{
+        display:inline-block;
+        float: right;
+        margin-top: 25px;
+    }
+    
+    .nav__item{
+        width: inherit;
+        display: inline-block;
+        margin: 0 30px 0 0;
+    }
+    
+    .nav_small-screen {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .toggle{
+        display: none;
+    }
+    
+    .main{
+        max-width: 1200px;
+    }
+}
+
+
+/*big screens only*/
+@media (min-width: 1024px) {
+    .header{
+        height: 150px;
+    }
+    
+    .nav_big-screen{
+        display:inline-block;
+        float: right;
+        margin-top: 40px;
+    }
+    
+    .nav__item{
+        width: inherit;
+        display: inline-block;
+        margin: 0 30px 0 0;
+    }
+    
+    .nav_small-screen {
+        display: none;
+        visibility: hidden;
+    }
+    
+    .toggle{
+        display: none;
+    }
+    
+    .main{
+        max-width: 1200px;
+        clear: both;
+    }
+    
+    .content{
+        padding: $padding;
+        width: 60%;
+        margin: 0px 2% 70px 2%;
+        float: left;
+    }
+    
+    .sidebar{
+        padding: $padding;
+        margin: 0px;
+        width: 32%;
+        margin: 0px 2% 0px 2%;
+        float: right;
+    }
+}

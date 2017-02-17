@@ -1,0 +1,111 @@
+/**
+Styles: Typography, Color, and Other Styles
+(All styles mobile first)
+**/
+
+body{
+    font-family: $body-font;
+    background-color: $background-color;
+}
+
+.header{
+    background-color: $accent-color;
+}
+
+.logo{
+    font-family: $title-font;
+    font-size: 30px;
+    text-decoration: none;
+    color: $type-color;
+}
+
+.logo:hover{
+    color: $background-color;
+}
+
+.nav_small-screen{
+    background: $accent-color;
+}
+
+.nav__item{
+    font-size: 20px;
+}
+
+.nav__link{
+    text-decoration: none;
+    color:$type-color;
+}
+
+.nav__link:hover{
+    color: $background-color;
+}
+
+.main {
+    text-align: center;
+    line-height: 1.7em;
+}
+
+.content{
+    text-align: left;
+    border-bottom: solid 2px $type-color;
+}
+
+.title{
+    font-family: $title-font;
+}
+
+.sidebar{
+    text-align: left;
+}
+
+.sidebar__list{
+    list-style:none;
+}
+
+.sidebar__link{
+    color: $type-color;
+    text-decoration: none;
+}
+
+.sidebar__link:hover{
+    color: $accent-color;
+}
+
+.footer{
+    color: $type-color;
+    background-color: $accent-color;
+}
+
+.footer__text {
+    text-align: center;
+}
+
+
+
+/*medium screens only*/
+@media (min-width : 768px) and (max-width : 1024px) {
+    .logo{
+        font-size: 50px;
+    }
+    
+    .nav__item{
+        font-size: 16px;
+        list-style: none;
+    }
+}
+
+/*big screens only*/
+@media (min-width: 1024px) {
+    .logo{
+        font-size: 70px;
+    }
+    
+    .nav__item{
+        font-size: 20px;
+        list-style: none;
+    }
+    
+    .content{
+        border-bottom: none;
+    }
+}
