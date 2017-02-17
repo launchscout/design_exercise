@@ -4,11 +4,7 @@ This is an exercise to show us where your front-end skills are. Feel free to use
 
 ## Getting Started
 
-Clone this repo
-
-New to git? This should help
-[Github Help on cloning a repo](https://help.github.com/articles/cloning-a-repository/),
-[Let's suck at Github together](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/)
+Download this repo
 
 
 ## Step 1
@@ -46,4 +42,4 @@ Using CSS, make `index.html` responsive. Style from mobile through desktop views
 
 ## I'm Finished!
 
-- Awesome now you can submit a [pull request](https://help.github.com/articles/using-pull-requests/).
+- Awesome, send us a ZIP!
