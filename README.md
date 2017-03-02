@@ -42,4 +42,4 @@ Using CSS, make `index.html` responsive. Style from mobile through desktop views
 
 ## I'm Finished!
 
-- Awesome, send us a ZIP!
+- Awesome, now attach a zip of your finished code exercise with your application [here.](https://teamgaslight.com/careers/designer)
