@@ -1,6 +1,6 @@
 Front End Exercise
 ==================
-This is an exercise to show us where your front-end skills are. Feel free to use any tools or frameworks you want.
+This is an exercise to show us where your UI/UX design and front-end skills are. Feel free to use any tools or frameworks you want.
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ The header should include a nav with three links:
 
 ## Step 2
 
-In the content section of the site, build out a simple blog post that has a featured image. Feel free to pull in some alternative placeholders with something like [Zombie Ipsum](http://www.zombieipsum.com/) or [Cincy Ipsum](http://www.cincyipsum.com/) for text and [Fill Murray](http://www.fillmurray.com/) or [Place Kitten](http://placekitten.com/) for the image. Style this however you would like.
+In the content section of the site, build out a simple blog post that has a featured image. Feel free to pull in some alternative placeholders with something like [Zombie Ipsum](http://www.zombieipsum.com/) or [Cincy Ipsum](http://www.cincyipsum.com/) for text and [Fill Murray](http://www.fillmurray.com/) or [Place Kitten](http://placekitten.com/) for the image. Design this however you would like, we want to see your style shine through.
 
 
 ## Step 3
